@@ -7,6 +7,14 @@
 # print("Tuple: ", tpl)
 
 # Write a Python program to display the first and last colours from the following list.
-color_list = ["Red","Green","White" ,"Black"]
-print("First Color: ", color_list[0])
-print("Last Color: ", color_list[3])
+# color_list = ["Red","Green","White" ,"Black"]
+# print("First Color: ", color_list[0])
+# print("Last Color: ", color_list[3])
+
+
+# Write a Python program to print the calendar of a given month and year.(Using calender module)
+import calendar
+
+year = int(input("Enter Year: "))
+mon = int(input("Enter Month: "))
+print(calendar.month(year,mon))
